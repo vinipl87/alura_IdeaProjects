@@ -39,7 +39,6 @@ https://cursos.alura.com.br/como-compartilhar-seu-localhost-de-forma-simplificad
  Consegui resolver o problema utilizando a solução do ngrok, o problema é que o Flutter não aceita mais conexões http sem SSL (https://).
 
 
-
 Após fazer o download e autenticar o ngrok, o comando foi: ngrok http 8080
 
 Depois foi só copiar a url https e colar no webclient.dart.
@@ -54,3 +53,7 @@ void findAll() async {
       await client.get(Uri.https('fdaf39aef708.ngrok.io', 'transactions'));
   print(response.body);
 }
+
+https://pub.dev/documentation/http/latest/http/http-library.html#functions
+https://flutter.dev/docs/development/data-and-backend/json#serializing-json-manually-using-dartconvert
+https://flutter.dev/docs/development/data-and-backend/json#generating-code-for-nested-classes
