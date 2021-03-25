@@ -1,1 +1,5 @@
 https://flutter.dev/docs/development/data-and-backend/state-mgmt/options
+https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple
+https://pub.dev/documentation/provider/latest/provider/Consumer-class.html
+https://pub.dev/documentation/provider/latest/provider/Provider/of.html
+https://pub.dev/documentation/provider/latest/provider/Selector-class.html
