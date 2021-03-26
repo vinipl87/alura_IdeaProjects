@@ -1,0 +1,6 @@
+https://bloclibrary.dev/#/flutterbloccoreconcepts
+
+1. bloc e flutter bloc
+2. criando um framework
+3. integrando telas
+4. formulários e bloc
