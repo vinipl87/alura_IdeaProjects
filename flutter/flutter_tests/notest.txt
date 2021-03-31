@@ -1,3 +1,7 @@
 https://flutter.dev/docs/cookbook/testing/unit/introduction
 https://pub.dev/packages/test
 https://flutter.dev/docs/cookbook/testing/integration/introduction
+https://cursos.alura.com.br/forum/topico-como-eu-faco-o-tester-pumpwidget-de-um-widget-que-depende-de-providers-149049
+https://iiro.dev/image-network-widget-tests/
+https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html#widgets.SingleChildScrollView.1
+https://api.flutter.dev/flutter/flutter_test/CommonFinders-class.html
