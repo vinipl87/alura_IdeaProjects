@@ -59,6 +59,6 @@ class Biometria extends StatelessWidget {
       useErrorDialogs: true,
     );
 
-    Provider.of<Cliente>(context).biometria = autenticado;
+    Provider.of<Cliente>(context,listen:false).biometria = autenticado;
   }
 }

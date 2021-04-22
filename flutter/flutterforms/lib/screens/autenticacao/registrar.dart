@@ -101,7 +101,7 @@ class Registrar extends StatelessWidget {
   _salvarStep1(context) {
     if(_formUserData.currentState.validate()) {
 
-      Cliente cliente = Provider.of<Cliente>(context);
+      Cliente cliente = Provider.of<Cliente>(context,listen:false);
       cliente.nome = _nomeController.text;
 
       _proximoStep(context);
@@ -115,9 +115,9 @@ class Registrar extends StatelessWidget {
   }
 
   _salvarStep3(context) {
-    if(_formUserAuth.currentState.validate() && Provider.of<Cliente>(context).imagemRG != null) {
+    if(_formUserAuth.currentState.validate() && Provider.of<Cliente>(context,listen:false).imagemRG != null) {
       FocusScope.of(context).unfocus();
-      Provider.of<Cliente>(context).imagemRG = null;
+      Provider.of<Cliente>(context,listen:false).imagemRG = null;
 
       Navigator.pushAndRemoveUntil(
           context,
