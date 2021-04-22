@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:flux_validator_dart/flux_validator_dart.dart';
+
 import 'package:image_picker/image_picker.dart';
 
 class Registrar extends StatelessWidget {
@@ -64,7 +65,7 @@ class Registrar extends StatelessWidget {
                   padding: EdgeInsets.only(top: 20),
                   child: Row(
                     children: [
-                      RaisedButton(
+                      ElevatedButton(
                         onPressed: onStepContinue,
                         child: Text(
                           'Salvar',
@@ -74,15 +75,18 @@ class Registrar extends StatelessWidget {
                         ),
                       ),
                       Padding(padding: EdgeInsets.only(right: 20)),
-                      RaisedButton(
+                      ElevatedButton(
                         onPressed: onStepCancel,
+                        style: ElevatedButton.styleFrom(
+                          primary: Colors.black
+                        ),
                         child: Text(
                           'Voltar',
                           style: TextStyle(
                             color: Colors.white,
                           ),
                         ),
-                        color: Colors.black,
+
                       ),
                     ],
                   ),
